@@ -1,0 +1,51 @@
+
+# Question – B : print column names :
+
+print('------------------------\n Column names as follows :')
+print('------------------------\n')
+count = 0
+for col in df.columns: 
+        print(count,"-->",col)
+        count = count+1
+print("\n-----------------------------\n")
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> S.No.
+1 --> India-States-Union Territories
+2 --> Women who use any kind of Tobacco (%) - NFHS-4 - Total
+3 --> Women who use any kind of Tobacco (%) - NFHS-4 - Rural
+4 --> Women who use any kind of Tobacco (%) - NFHS-4 - Urban
+5 --> Women who use any kind of Tobacco (%) - NFHS-3
+6 --> Men who use any kind of Tobacco (%) - NFHS-4 - Total
+7 --> Men who use any kind of Tobacco (%) - NFHS-4 - Rural
+8 --> Note of - Men who use any kind of Tobacco (%) - NFHS-4 - Rural
+9 --> Men who use any kind of Tobacco (%) - NFHS-4 - Urban
+10 --> Men who use any kind of Tobacco (%) - NFHS-3
+11 --> Women who consume Alcohol (%) - NFHS-4 - Total
+12 --> Women who consume Alcohol (%) - NFHS-4 - Rural
+13 --> Women who consume Alcohol (%) - NFHS-4 - Urban
+14 --> Women who consume Alcohol (%) - NFHS-3
+15 --> Men who consume Alcohol (%) - NFHS-4 - Total
+16 --> Men who consume Alcohol (%) - NFHS-4 - Rural
+17 --> Note of - Men who consume Alcohol (%) - NFHS-4 - Rural
+18 --> Men who consume Alcohol (%) - NFHS-4 - Urban
+19 --> Men who consume Alcohol (%) - NFHS-3
+20 --> Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Total
+21 --> Note of - Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Total
+22 --> Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Rural
+23 --> Note of - Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Rural
+24 --> Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Urban
+25 --> Note of - Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Urban
+26 --> Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Total
+27 --> Note of - Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Total
+28 --> Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Rural
+29 --> Note of - Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Rural
+30 --> Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Urban
+31 --> Note of - Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Urban
+
+-----------------------------
+
+
+In [8]:
