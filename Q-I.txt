@@ -1,0 +1,30 @@
+# Question - I : Men tried to stop Tobacco
+
+df20 = df['Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Total']
+df21 = df['Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Rural']
+df22 = df['Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Urban']
+
+plt.title('Question - I : Men tried to stop Tobacco')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df20,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Total")
+
+plt.plot(df21,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Rural")
+
+plt.plot(df22,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Men who Tried to Stop Smoking or using Tobacco in any other form (during the Past 12 months)* % - Urban")
+            
+plt.legend()
+plt.show()
