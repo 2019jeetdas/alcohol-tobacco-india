@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+import pandas
+
+
+df = pd.read_csv("C:/Users/Jeet Das/Desktop/alcohol.csv",encoding="utf-8")
+
+print("\n----------------------- output data :---------------------\n")
+print("Project - 15 : Tobacco Use and Alcohol Consumption in India (using Python ) ");
+print("\n------------------------------------------------------------\n")
+
+
+# Question – A : get row and column numbers 
+
+print('---------------------------------------------')
+print("Dimension of the data frame = ",df.shape)
+print('---------------------------------------------')
+
+----------------------- output data :---------------------
+
+Project - 15 : Tobacco Use and Alcohol Consumption in India (using Python ) 
+
+------------------------------------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (37, 32)
+---------------------------------------------
