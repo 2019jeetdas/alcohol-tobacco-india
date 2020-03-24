@@ -1,0 +1,38 @@
+# Question - G : Men consume Alcohol
+
+df13 = df['Men who consume Alcohol (%) - NFHS-4 - Total']
+df14 = df['Men who consume Alcohol (%) - NFHS-4 - Rural']
+df15 = df['Men who consume Alcohol (%) - NFHS-4 - Urban']
+df16 = df['Men who consume Alcohol (%) - NFHS-3']
+
+plt.title('Question - G : Men consume Alcohol')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df13,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Men who consume Alcohol (%) - NFHS-4 - Total")
+
+plt.plot(df14,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Men who consume Alcohol (%) - NFHS-4 - Rural")
+
+plt.plot(df15,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Men who consume Alcohol (%) - NFHS-4 - Urban")
+            
+plt.plot(df16,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[4] Men who consume Alcohol (%) - NFHS-3")
+            
+            
+plt.legend()
+plt.show()
