@@ -1,0 +1,38 @@
+# Question - F : Women consume Alcohol
+
+df9 = df['Women who consume Alcohol (%) - NFHS-4 - Total']
+df10 = df['Women who consume Alcohol (%) - NFHS-4 - Rural']
+df11 = df['Women who consume Alcohol (%) - NFHS-4 - Urban']
+df12 = df['Women who consume Alcohol (%) - NFHS-3']
+
+plt.title('Question - F : Women consume Alcohol')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df9,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Women who consume Alcohol (%) - NFHS-4 - Total")
+
+plt.plot(df10,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Women who consume Alcohol (%) - NFHS-4 - Rural")
+
+plt.plot(df11,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Women who consume Alcohol (%) - NFHS-4 - Urban")
+            
+plt.plot(df12,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[4] Women who consume Alcohol (%) - NFHS-3")
+            
+            
+plt.legend()
+plt.show()
