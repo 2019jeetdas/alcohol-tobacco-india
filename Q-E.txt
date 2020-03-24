@@ -1,0 +1,38 @@
+# Question - E : Men use Tobacco
+
+df5 = df['Men who use any kind of Tobacco (%) - NFHS-4 - Total']
+df6 = df['Men who use any kind of Tobacco (%) - NFHS-4 - Rural']
+df7 = df['Men who use any kind of Tobacco (%) - NFHS-4 - Urban']
+df8 = df['Men who use any kind of Tobacco (%) - NFHS-3']
+
+plt.title('Question - E : Men use Tobacco')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df5,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Men who use any kind of Tobacco (%) - NFHS-4 - Total")
+
+plt.plot(df6,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Men who use any kind of Tobacco (%) - NFHS-4 - Rural")
+
+plt.plot(df7,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Men who use any kind of Tobacco (%) - NFHS-4 - Urban")
+            
+plt.plot(df8,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[4] Men who use any kind of Tobacco (%) - NFHS-3")
+            
+            
+plt.legend()
+plt.show()
