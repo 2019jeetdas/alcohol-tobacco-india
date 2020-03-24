@@ -1,0 +1,30 @@
+# Question - H : Women tried to stop Tobacco
+
+df17 = df['Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Total']
+df18 = df['Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Rural']
+df19 = df['Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Urban']
+
+plt.title('Question - H : Women tried to stop Tobacco')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df17,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Total")
+
+plt.plot(df18,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Rural")
+
+plt.plot(df19,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Women who Tried to Stop Smoking or using Tobacco in any other form during the Past 12 months (%) - Urban")
+            
+plt.legend()
+plt.show()
