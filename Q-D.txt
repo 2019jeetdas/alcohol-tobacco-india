@@ -1,0 +1,39 @@
+# Question - D : Women Use Tobacco
+
+df1 = df['Women who use any kind of Tobacco (%) - NFHS-4 - Total']
+df2 = df['Women who use any kind of Tobacco (%) - NFHS-4 - Rural']
+df3 = df['Women who use any kind of Tobacco (%) - NFHS-4 - Urban']
+df4 = df['Women who use any kind of Tobacco (%) - NFHS-3']
+
+plt.title('Question - D : Women Use Tobacco')
+plt.xlabel("State sl. no. --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df1,
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Women who use any kind of Tobacco (%) - NFHS-4 - Total")
+
+plt.plot(df2,
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Women who use any kind of Tobacco (%) - NFHS-4 - Rural")
+
+plt.plot(df3,
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="[3] Women who use any kind of Tobacco (%) - NFHS-4 - Urban")
+            
+plt.plot(df4,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[4] Women who use any kind of Tobacco (%) - NFHS-3")
+            
+            
+plt.legend()
+plt.show()
+
